@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">damarDjati_SubmissionDicodingke2</string>
+    <string name="languageChange_setting">Ubah Pengaturan Bahasa</string>
+    <string name="name">Nama</string>
+    <string name="label_about_me">Damar Djati Wahyu Kemala</string>
+    <string name="intro_name">Damar Submission Dicoding</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="about_mail">damar.3006@students.amikom.ac.id</string>
+    <string name="location">Lokasi : %s</string>
+    <string name="about_me_describe">Tentang Saya..</string>
+    <string name="repository">Repositori : %s</string>
+    <string name="my_workOns">Full Stack Web Developer</string>
+    <string name="company">Perusahaan : %s</string>
+    <string name="follower">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="image_splash_logo_name">image splash logo</string>
+</resources>

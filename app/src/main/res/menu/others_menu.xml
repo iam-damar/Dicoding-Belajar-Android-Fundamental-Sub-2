@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/item_ribbon"
+        android:title="@string/about_me_describe"
+        android:icon="@drawable/ic_ribbons"/>
+    <item
+        app:showAsAction="never"
+        android:title="@string/languageChange_setting"
+        android:id="@+id/setChange_Action"/>
+</menu>

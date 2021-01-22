@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graylight"
+    tools:context=".MainActivity"
+    tools:ignore="Overdraw">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:indeterminateTint="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainProgressBar"/>
+
+    <androidx.appcompat.widget.SearchView
+        app:queryHint="Input here to find Username"
+        android:id="@+id/mainSearchUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:queryBackground="@null"
+        app:showDividers="end"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintTop_toTopOf="@id/mainSearchUser"
+        app:layout_constraintStart_toStartOf="@id/mainSearchUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainReView"
+        android:layout_marginTop="100dp"
+        tools:listitem="@layout/list_users_card"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
